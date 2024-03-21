@@ -21,3 +21,5 @@ obj.meth1()
 obj.get_company()
 Employee.get_company()
 
+# new comments added
+# new comments added
