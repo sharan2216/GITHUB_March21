@@ -1,4 +1,7 @@
 # # class method
+
+# new comments added
+# new comments added
 class Employee:
     Company="INFY"
     def __init__(self,name,age,loc):
@@ -17,3 +20,4 @@ obj=Employee("Rahul",21,"Pune")
 obj.meth1()
 obj.get_company()
 Employee.get_company()
+
