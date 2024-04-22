@@ -9,8 +9,8 @@ class Employee:
         self.age=age
         self.loc=loc
 
-    def meth1(self0):
-        print(f"name is {self0.name} and age is {self0.age} and location is {self0.loc}")
+    def meth1(self):
+        print(f"name is {self.name} and age is {self.age} and location is {self.loc}")
 
     @classmethod
     def get_company(cls):

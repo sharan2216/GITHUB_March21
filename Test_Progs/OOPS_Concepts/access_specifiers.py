@@ -54,7 +54,7 @@ class Student:
         self._age=age
         self.__loc=loc
     def __display(self):
-        print(f'name is {self.name} ans age is {self._age} and loaction is {self.__loc}')
+        print(f'name is {self.name} and age is {self._age} and loaction is {self.__loc}')
 
 class Parents(Student):
     def show(self):
@@ -70,5 +70,5 @@ print(p1._age)
 s1=Student("Rama",30,"Ayodhya")
 print(s1.name)
 print(s1._age)
-# print(s1.__loc)  -----#cant access private attributes outside class
+# print(s1.__loc) # -----#cant access private attributes outside class
 # s1.__display()   ------#cant access private attributes outside class

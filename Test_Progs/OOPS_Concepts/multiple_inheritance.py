@@ -17,10 +17,10 @@ class C(A):
         self.loc=loc
 
     def display(self):
-        print(f'name is {self.name} and salary is {self.loc}')
+        print(f'name is {self.name} and location is {self.loc}')
 
 b1=B("raj",21)
-c1=C("Tom",22)
+c1=C("Tom","pune")
 print(b1.name)
 print(b1.age)
 print(b1.display())
